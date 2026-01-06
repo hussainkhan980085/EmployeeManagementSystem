@@ -5,16 +5,10 @@ import java.util.Objects;
 public class Employee extends BasePerson implements Comparable<Employee> {
      
 	
-
 	private String Department;
 	 
-	
-	
 	private static final String COMPANY_NAME = "Konic Technologies";
 
-	
-	
-	
 	
 	public Employee(int id, String name, String department) {
 		super(id, name);

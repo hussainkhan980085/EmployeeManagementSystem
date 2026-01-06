@@ -8,29 +8,29 @@ public class EmployeeService {
 	// using method i added employees to list
 	public List<Employee> addEmployees() {
 		list.clear();
-		Employee e1 = new Employee();
+		Employee e1 = new Employee(0, null, null);
 		e1.setId(101);
-		e1.setName("Huzaifa");
+		e1.setName("Hussain");
 		e1.setDepartment("Hr");
 
-		Employee e2 = new Employee();
+		Employee e2 = new Employee(0, null, null);
 		e2.setId(102);
-		e2.setName("Shaik");
+		e2.setName("Khan");
 		e2.setDepartment("It");
 
-		Employee e3 = new Employee();
+		Employee e3 = new Employee(0, null, null);
 		e3.setId(101);
-		e3.setName("Huzaifa");
+		e3.setName("Hussain");
 		e3.setDepartment("Hr");
 
-		Employee e4 = new Employee();
+		Employee e4 = new Employee(0, null, null);
 		e4.setId(103);
-		e4.setName("Ali");
+		e4.setName("Hassain");
 		e4.setDepartment("It");
 
-		Employee e5 = new Employee();
+		Employee e5 = new Employee(0, null, null);
 		e5.setId(104);
-		e5.setName("Syed");
+		e5.setName("Munna");
 		e5.setDepartment("Admin");
 
 		list.addLast(e1);
